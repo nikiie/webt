@@ -1,5 +1,5 @@
 class HelloController < ApplicationController
   def index
-    render plain:'こんにちは'
+    render plain:'こんにちは、てへぺろ'
   end
 end
