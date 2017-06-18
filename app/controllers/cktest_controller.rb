@@ -2,12 +2,13 @@ class CktestController < ApplicationController
   def index
     @cookie = cookies[:name]
   end
-  def cookiein
-    cookies[:name] = { :value => "niki"}
+  def insert
+    cookies[:name] = { :value => "nikiniki" }
+    redirect_to :action => "index"
   end
-  def cookieout
+  def delete
     cookies.delete(:name)
-    index()
+    redirect_to :action => "index"
   end
 
 end
