@@ -1,6 +1,6 @@
 class HelloController < ApplicationController
   def index
-    render plain:'こんにちは、てへぺろ'
+    @msg = 'index'
   end
   def view
     @msg = 'こんにちは、世界'
