@@ -1,0 +1,60 @@
+body {
+	font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+html {
+  font-size: 62.5%; /* sets the base font to 10px for easier math */
+}
+
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  /* sets the default sizing to make sure nothing is actually 10px */
+}
+
+h1 {
+  font-size: 32px;
+  font-size: 3.2rem;
+}
+
+/*===============================================
+●style.css 画面の横幅が769px以上
+===============================================*/
+@media screen and (min-width: 769px){
+  img{
+    max-width: 100%;
+    height: auto;
+    width /***/:auto;　
+  }
+  #container{
+    width:100%;
+  }
+}
+/*===============================================
+●tablet.css 画面の横幅が768pxまで
+===============================================*/
+@media screen and (max-width: 768px){
+  img{
+    max-width: 100%;
+    height: auto;
+    width: auto;　
+  }
+  #container{
+    width:100%;
+  }
+}
+/*===============================================
+●smart.css  画面の横幅が640pxまで
+===============================================*/
+/*
+@media screen and (max-width:640px){
+  img{
+    max-width: 100%;
+    height: auto;
+    width:auto;　
+  }
+  #container{
+    width:100%;
+  }
+}
+*/
