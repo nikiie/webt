@@ -7,7 +7,7 @@ class CktestController < ApplicationController
     redirect_to :action => "index"
   end
   def delete
-#    cookies.delete(:name)
+    cookies.delete(:name)
     redirect_to :action => "index"
   end
 end
